@@ -14,7 +14,6 @@ class Solution:
                     dp[i][j] = 1 + dp[i-1][j-1]
                     max_len = max(max_len, dp[i][j])
         
-
         return max_len
         
         
